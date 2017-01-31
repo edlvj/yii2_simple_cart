@@ -1,0 +1,22 @@
+{
+    "name": "edlvj/yii2_simple_cart",
+    "description": "Yii2 component ",
+    "keywords": ["yii", "shopping cart"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Eduard.Goryach",
+            "email": "gorachedik96@gmail.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "edlvj\\simplecart\\": ""
+        }
+    }
+}
