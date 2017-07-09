@@ -23,7 +23,6 @@ class SimpleCart extends \yii\base\Component {
 	    if (isset($this->cart[$id])) 
 	        $row = $this->updateQuantity($id, $this->cart[$id]['quantity'] + $quantity);
 	    else 
-            print_r($this->cart); exit;
 	        $row = $this->insertItem($id, $quantity, $price);
 	    return $row;
     }
